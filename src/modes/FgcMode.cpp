@@ -40,7 +40,7 @@ void FgcMode::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
     outputs.a = inputs.b;
     outputs.b = inputs.x;
     outputs.triggerRDigital = inputs.z;
-    // remapped this to add left hand pinky button
+    // remapped this to add left hand button
     outputs.triggerLDigital = inputs.l;
 
     // Right hand top row
