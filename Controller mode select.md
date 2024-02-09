@@ -13,3 +13,4 @@ The default controller mode button combinations are:
 Default keyboard mode button combinations (only available when using DInput backend, not with XInput):
 
     Mod Y + Start + L - Default keyboard mode
+![image](https://github.com/spikedcannonball/HayBox-remap/assets/145741597/5b978b5b-1529-4880-afc3-ec3097730a31)
