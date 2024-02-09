@@ -1,4 +1,4 @@
-#Game mode selection
+Game mode selection
 
 Unlike other similar firmwares, HayBox by default allows you to switch modes on the fly without unplugging your controller. This is mainly useful on PC, as opposed to console where you usually have to restart the console to switch game anyway. It also serves the purpose of reducing the number of buttons you have to hold with one hand while plugging in.
 
