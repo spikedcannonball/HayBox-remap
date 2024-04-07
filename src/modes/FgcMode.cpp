@@ -23,7 +23,8 @@ void FgcMode::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
     outputs.dpadLeft = inputs.left;
     outputs.dpadRight = inputs.right;
     outputs.dpadDown = inputs.down;
-    outputs.dpadUp = inputs.mod_x;
+    //modified since mod_x and up were swapped, this is now still up
+    outputs.dpadUp = inputs.up;
 
     // Menu keys
     outputs.select = inputs.a;
@@ -42,6 +43,8 @@ void FgcMode::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
     outputs.triggerRDigital = inputs.z;
     // remapped this to add left hand button
     outputs.triggerLDigital = inputs.l;
+    // retain original function on modified mod_x input, comment this out if two button remap for one original button is illegal
+    outputs.triggerLDigital = inputs.mod_x;
 
     // Right hand top row
     outputs.x = inputs.r;
