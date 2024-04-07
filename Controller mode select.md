@@ -13,8 +13,11 @@ The default controller mode button combinations are:
 Default keyboard mode button combinations (only available when using DInput backend, not with XInput):
 
     Mod Y + Start + L - Default keyboard mode
-
+Default Haybox build:
 ![default](https://github.com/spikedcannonball/HayBox-remap/assets/145741597/b863193d-6695-4382-b77b-ead91eb01b57)
 
+Modified Haybox rebinds:
+![haybox-remap](https://github.com/spikedcannonball/HayBox-remap/assets/145741597/53caf20c-e506-4052-9895-549d3b0e93e1)
+
 Modified FGC rebinds:
-![image](https://github.com/spikedcannonball/HayBox-remap/assets/145741597/5b978b5b-1529-4880-afc3-ec3097730a31)
+![haybox-FGC layout](https://github.com/spikedcannonball/HayBox-remap/assets/145741597/754bbd9b-0b52-42ae-98a8-a9bd0980a7cd)
