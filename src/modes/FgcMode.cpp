@@ -41,10 +41,8 @@ void FgcMode::UpdateDigitalOutputs(InputState &inputs, OutputState &outputs) {
     outputs.a = inputs.b;
     outputs.b = inputs.x;
     outputs.triggerRDigital = inputs.z;
-    // remapped this to add left hand button
-    outputs.triggerLDigital = inputs.l;
-    // retain original function on modified mod_x input, comment this out if two button remap for one original button is illegal
-    outputs.triggerLDigital = inputs.mod_x;
+    // remapped this to add left hand button and keep original button
+    outputs.triggerLDigital = inputs.l || inputs.mod_x;
 
     // Right hand top row
     outputs.x = inputs.r;
