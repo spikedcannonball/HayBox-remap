@@ -8,9 +8,10 @@ FgcMode::FgcMode(socd::SocdType horizontal_socd, socd::SocdType vertical_socd) {
   properly if Down and both Up buttons are pressed, because it first resolves Down + Mod X
   to set both as unpressed, and then it sees C-Up as pressed but not Down, so you get an up
   input instead of neutral. 
-        Uncomment line 14 if we use c_up as up and comment out line 13
+        Uncomment line 15 if we use c_up as up and comment out line 14
+    Default &InputState::mod_x changed to remapped button
   */
-        socd::SocdPair{ &InputState::down,  &InputState::mod_x, vertical_socd           },
+        socd::SocdPair{ &InputState::down,  &InputState::up, vertical_socd           },
         //socd::SocdPair{ &InputState::down,  &InputState::c_up,  vertical_socd           },
 
         //If using WASD, uncomment the below line and comment the above lines
